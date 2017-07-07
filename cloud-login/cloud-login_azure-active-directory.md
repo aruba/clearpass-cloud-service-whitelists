@@ -21,7 +21,7 @@ login.microsoftonline.com
 
 | Windows 	| macOS 	| Linux 	| Android 	| iOS 	|
 |---------	|-------	|-------	|---------	|-----	|
-| 10, 1703<br>IAP 4.3 	|  	|  	| 7.1<br>IAP 4.3 	| 9.x<br>IAP 4.3 	|
+| 10, 1703<br>IAP 6.5.3 	|  	|  	| 7.1<br>IAP 6.5.3 	| 9.x<br>IAP 6.5.3 	|
 |  	|  	|  	| 7.1<br>ArubaOS 8.1 	|  	|
 |  	|  	|  	|  	|  	|
 
@@ -38,10 +38,7 @@ netdestination cloud-login-_microsoftonline
 
 ### Aruba Instant
 ```
- rule alias accounts.google.com match tcp 443 443 permit
- rule alias accounts.youtube.com match tcp 443 443 permit
- rule alias clients.l.google.com match tcp 443 443 permit
- rule alias ssl.gstatic.com match tcp 443 443 permit
- rule alias googlehosted.l.googleusercontent.com match tcp 443 443 permit
- rule alias lh3.googleusercontent.com match tcp 443 443 permit
+ rule alias login.microsoftonline.com match tcp 443 443 permit
+ rule alias *.aadcdn.microsoftonline-p.com match tcp 443 443 permit
+ rule alias *.aadcdn.microsoftonline-p.com match tcp 80 80 permit
 ```
