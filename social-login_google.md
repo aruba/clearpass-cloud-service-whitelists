@@ -1,13 +1,8 @@
-Google Accounts
+Google
 ======
-|      Version | 2017.02  |
-|-------------:|---|
-| Date Changed | 7/7/17  |
-| Changed By   |  Tim Cappalli |
 
 
 
-### FQDN List
 ```
 accounts.google.com
 accounts.youtube.com
