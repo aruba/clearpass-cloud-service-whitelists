@@ -3,7 +3,9 @@ Google Accounts
 ![version 2017.03](https://img.shields.io/badge/version-2017.03-brightgreen.svg "version 2017.03") ![version 2017.03](https://img.shields.io/badge/source-Aruba_Security-orange.svg "version 2017.01")
 
 ![SAML](https://img.shields.io/badge/login-SAML-blue.svg "SAML") ![OAuth 2.0](https://img.shields.io/badge/login-OAuth_2.0-blue.svg "OAuth 2.0")
-> Used for both Google consumer login and G Suite (unified login)
+> __LOGIN URL:__ https://accounts.google.com
+
+> Unified login used for both Google consumer login and G Suite
 
 > Google login works correctly inside captive portal browsers on Android, iOS and macOS for __login__ flows. 
 
