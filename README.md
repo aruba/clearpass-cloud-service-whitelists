@@ -6,7 +6,6 @@ The latest whitelist entries for cloud login and Onboarding.
 
 <br>
 
-| Service 	|  	|
-|---	|---	|
-| [Google Login](cloud-login/cloud-login_google.md) 	| [![Sign in with Google](https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png "Sign in with Google")](cloud-login/cloud-login_google.md) 	|
-|  	|  	|
+[Azure Active Directory](cloud-login/cloud-login_azure-active-directory.md)
+
+[Google Login](cloud-login/cloud-login_google.md)
