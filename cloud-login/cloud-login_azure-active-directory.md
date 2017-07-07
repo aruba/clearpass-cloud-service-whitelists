@@ -1,6 +1,6 @@
 Azure Active Directory
 ======
-![version 2017.01](https://img.shields.io/badge/version-2017.01-brightgreen.svg "version 2017.01") ![version 2017.01](https://img.shields.io/badge/source-Aruba_Security-orange.svg "version 2017.01")
+![version 2017.02](https://img.shields.io/badge/version-2017.02-brightgreen.svg "version 2017.02") ![version 2017.02](https://img.shields.io/badge/source-Aruba_Security-orange.svg "version 2017.02")
 
 ![SAML](https://img.shields.io/badge/login-SAML-blue.svg "SAML") ![OAuth 2.0](https://img.shields.io/badge/login-OAuth_2.0-blue.svg "OAuth 2.0")
 > __LOGIN URL:__ https://login.microsoftonline.com
@@ -30,7 +30,7 @@ login.microsoftonline.com
 ## NAD Examples
 ### Aruba Controller
 ```
-netdestination cloud-login-_microsoftonline
+netdestination cloud-login_microsoftonline
     name login.microsoftonline.com
     name *.aadcdn.microsoftonline-p.com
 !
