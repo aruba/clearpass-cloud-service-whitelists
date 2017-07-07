@@ -6,7 +6,6 @@ Google Accounts
 > Used for both Google consumer login and G Suite (unified login)
 
 <br>
-<br>
 
 ## FQDN List
 ```
@@ -31,7 +30,7 @@ netdestination social-login_google
 !
 ```
 
-
+<br>
 
 ### Aruba Instant
 ```
