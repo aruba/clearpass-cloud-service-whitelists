@@ -31,7 +31,7 @@ Okta
 ## NAD Examples
 ### Aruba Controller
 ```
-netdestination cloud-login_microsoftonline
+netdestination cloud-login_okta
     name *.okta.com
     name *.oktapreview.com
     name *.oktacdn.com
