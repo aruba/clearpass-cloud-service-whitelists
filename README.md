@@ -9,3 +9,5 @@ The latest whitelist entries for cloud login and Onboarding.
 [Azure Active Directory](cloud-login/cloud-login_azure-active-directory.md)
 
 [Google Login](cloud-login/cloud-login_google.md)
+
+[Okta](cloud-login/cloud-login_okta.md)
