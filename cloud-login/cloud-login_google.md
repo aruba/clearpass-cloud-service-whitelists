@@ -11,7 +11,7 @@ Google Accounts
 
 <br>
 
-## FQDN List
+## Whitelist
 ```
 accounts.google.com
 accounts.youtube.com
@@ -36,7 +36,7 @@ lh3.googleusercontent.com
 ## NAD Examples
 ### Aruba Controller
 ```
-netdestination social-login_google
+netdestination cloud-login_google
     name accounts.google.com
     name accounts.youtube.com
     name clients.l.google.com
