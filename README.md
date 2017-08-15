@@ -16,3 +16,5 @@ The latest whitelist entries for cloud login and Onboarding.
 [Google Login](cloud-login/cloud-login_google.md)
 
 [Okta](cloud-login/cloud-login_okta.md)
+
+[Twitter](cloud-login/cloud-login_twitter.md)
