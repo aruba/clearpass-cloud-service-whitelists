@@ -11,6 +11,8 @@ The latest whitelist entries for cloud login and Onboarding.
 ## Cloud Identity Provider Whitelists
 [Azure Active Directory](cloud-login/cloud-login_azure-active-directory.md)
 
+[Facebook](cloud-login/cloud-login_facebook.md)
+
 [Google Login](cloud-login/cloud-login_google.md)
 
 [Okta](cloud-login/cloud-login_okta.md)
