@@ -29,7 +29,7 @@ www.google.com
 >__NOTE__: Lack of entry simply means it was not tested.
 
 | Android Version | Android Device | Network Access Device |
-|---------|
+|---------|---------|---------|
 | 7.0 (Nougat) | | ArubaOS 6.5.3 (Instant) |
 | 8.1.0 (Oreo) | Pixel 2 XL | ArubaOS 8.3.0.0 (controller) |
 | 9.0 DP4 (Android P) | Pixel 2 | ArubaOS 8.3.0.0 (controller) |
