@@ -21,7 +21,7 @@ login.microsoftonline.com
 
 | Windows 	| macOS 	| Linux 	| Android 	| iOS 	|
 |---------	|-------	|-------	|---------	|-----	|
-| 10, 1703<br>IAP 6.5.3 	|  	|  	| 7.1<br>IAP 6.5.3 	| 9.x<br>IAP 6.5.3 	|
+| 10, 1703<br>IAP 6.5.3 	| 10.15.4 	|  	| 7.1<br>IAP 6.5.3 	| 9.x<br>IAP 6.5.3 	|
 |  	|  	|  	| 7.1<br>ArubaOS 8.1 	|  	|
 |  	|  	|  	|  	|  	|
 
