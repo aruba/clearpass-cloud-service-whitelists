@@ -21,23 +21,25 @@ login.microsoftonline.com
 
 | Windows 	| macOS 	| Linux 	| Android 	| iOS 	|
 |---------	|-------	|-------	|---------	|-----	|
-| 10, 1703<br>IAP 6.5.3 	| 10.15.4<br>ArubaOS 8.6.0.2 	|  	| 7.1<br>IAP 6.5.3 	| 9.x<br>IAP 6.5.3 	|
+| 10, 1703<br>IAP 6.5.3 	| 10.15.4 (Catalina)<br>ArubaOS 8.6.0.2 	|  	| 7.1<br>IAP 6.5.3 	| 9.x<br>IAP 6.5.3 	|
 |  	|  	|  	| 7.1<br>ArubaOS 8.1 	|  	|
 |  	|  	|  	|  	|  	|
 
 <br>
 
 ## NAD Examples
+>__NOTE__: If you want to see SAML/OAuth failures you must include the following domain, or you will be met with a blank page on the client. This includes redirect/reply URIs being invalid.
+
+```
+*.msauth.com
+```
+
 ### Aruba Controller
 ```
 netdestination cloud-login_microsoftonline
     name login.microsoftonline.com
     name *.aadcdn.microsoftonline-p.com
 !
-```
->__NOTE__: If you want to see SAML failures you must include:
-```
-name *.msauth.com
 ```
 
 ### Aruba Instant
